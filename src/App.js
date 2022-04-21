@@ -6,13 +6,13 @@ import MovieCard from "./MovieCard";
 
 const API_URL = 'http://www.omdbapi.com?apikey=4e0ff7f8'
 
-const movie = {
-  Poster: "https://m.media-amazon.com/images/M/MV5BYjFhN2RjZTctMzA2Ni00NzE2LWJmYjMtNDAyYTllOTkyMmY3XkEyXkFqcGdeQXVyNTA0OTU0OTQ@._V1_SX300.jpg",
-  Title: "Italian Spiderman",
-  Type: "movie",
-  Year: "2007",
-  imdbID: "tt2705436"
-}
+// const movie = {
+//   Poster: "https://m.media-amazon.com/images/M/MV5BYjFhN2RjZTctMzA2Ni00NzE2LWJmYjMtNDAyYTllOTkyMmY3XkEyXkFqcGdeQXVyNTA0OTU0OTQ@._V1_SX300.jpg",
+//   Title: "Italian Spiderman",
+//   Type: "movie",
+//   Year: "2007",
+//   imdbID: "tt2705436"
+// }
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
